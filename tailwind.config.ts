@@ -1,19 +1,32 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
-  plugins: [],
+	content: [
+		"./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+	],
+	theme: {
+		screens: {
+			xs: "360px",
+			// @media (min-width: 360px)
+			sm: "425px",
+			// @media (min-width: 425px)
+			md: "768px",
+			// @media (min-width: 768px)
+			lg: "1024px",
+			// @media (min-width: 1024px)
+			xl: "1440px",
+			// @media (min-width: 1440px)
+		},
+		extend: {
+			colors: {},
+		},
+	},
+	plugins: [require("tailwindcss-inner-border"), require("tailwind-scrollbar")],
+	variants: {
+		scrollbar: ["rounded"],
+		willChange: ["hover", "focus"],
+	},
 };
 export default config;
