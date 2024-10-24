@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<main>
 			<CustomLayout>
-				<div className="w-full text-8xl font-bold flex items-center justify-center h-screen">
+				<div className="w-full text-5xl font-bold flex items-center justify-center h-screen">
 					Hello Bookself!
 				</div>
 			</CustomLayout>

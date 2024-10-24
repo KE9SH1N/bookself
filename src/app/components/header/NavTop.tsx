@@ -8,7 +8,7 @@ import { MdAutoStories } from "react-icons/md";
 
 const NavTop = () => {
 	return (
-		<div>
+		<nav>
 			<div className="hidden lg:ct-container lg:ct-flex-between lg:gap-x-2 pt-5">
 				<Link href={`/`}>
 					<div className="ct-flex-start items-center flex-row gap-x-3">
@@ -71,7 +71,7 @@ const NavTop = () => {
 					<UserAccountMenu />
 				</div>
 			</div>
-		</div>
+		</nav>
 	);
 };
 
