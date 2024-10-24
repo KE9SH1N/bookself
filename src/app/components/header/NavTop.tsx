@@ -56,14 +56,16 @@ const NavTop = () => {
 							/>
 						</div> */}
 					</div>
-					<div>
+					<div className="relative">
 						<button
-							className="flex cursor-pointer"
+							className="flex cursor-pointer "
 							// onClick={handleToggleCart}
 						>
-							<FiShoppingCart className="text-2xl" />
+							<FiShoppingCart className="text-2xl " />
 							{/* <span>({totalQuantity})</span> */}
-							<span>01</span>
+							<span className=" absolute -top-3 left-4 w-6 h-6 rounded-full border border-yellow-900 text-[10px] font-bold ct-flex-center bg-[#ffedd5]">
+								21
+							</span>
 						</button>
 					</div>
 					<UserAccountMenu />
