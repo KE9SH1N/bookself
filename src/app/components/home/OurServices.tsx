@@ -1,13 +1,12 @@
 import React from "react";
 import { FaShippingFast, FaShieldAlt, FaUndo, FaHeadset } from "react-icons/fa";
-import SectionHead from "../common/SectionHead";
 
 const OurServices = () => {
 	return (
 		<div className="w-full bg-gray-100 p-5">
 			<div className="ct-flex-between gap-x-5">
 				<div className="flex items-center gap-4">
-					<FaShippingFast className="text-green-600" fontSize="large" />
+					<FaShippingFast className="text-green-600 text-[44px]" />
 					<div>
 						<h3 className="text-lg font-semibold text-gray-800">
 							Free Shipping
@@ -17,7 +16,7 @@ const OurServices = () => {
 				</div>
 
 				<div className="flex items-center gap-4">
-					<FaShieldAlt className="text-green-600" fontSize="large" />
+					<FaShieldAlt className="text-green-600 text-[40px]" />
 					<div>
 						<h3 className="text-lg font-semibold text-gray-800">
 							Secure Payment
@@ -27,7 +26,7 @@ const OurServices = () => {
 				</div>
 
 				<div className="flex items-center gap-4">
-					<FaUndo className="text-green-600" fontSize="large" />
+					<FaUndo className="text-green-600 text-4xl" />
 					<div>
 						<h3 className="text-lg font-semibold text-gray-800">
 							Easy Returns
@@ -37,7 +36,7 @@ const OurServices = () => {
 				</div>
 
 				<div className="flex items-center gap-4">
-					<FaHeadset className="text-green-600" fontSize="large" />
+					<FaHeadset className="text-green-600 text-4xl" />
 					<div>
 						<h3 className="text-lg font-semibold text-gray-800">
 							24/7 Support

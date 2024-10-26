@@ -5,7 +5,7 @@ const FooterBottom = () => {
 	return (
 		<div className="ct-container my-8 text-center">
 			<div className="ct-flex-between ">
-				<p className="text-xs text-gray-500 mt-4">bookself.com Pvt Ltd</p>
+				<p className="text-xs text-gray-500 mt-4">goodsself.com Pvt Ltd</p>
 				<div className="ct-flex-center gap-x-5">
 					<p className="text-sm">We're using safe payment for</p>
 					<div className="ct-flex-center space-x-4">

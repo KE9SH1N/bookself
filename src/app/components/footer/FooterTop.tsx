@@ -14,7 +14,7 @@ const FooterTop = () => {
 					<div className="flex items-center space-x-2 mb-2">
 						<GiOpenBook className="text-4xl text-green-600" />
 						<span className="text-3xl font-semibold uppercase text-green-600">
-							bookself
+							goodsself
 						</span>
 					</div>
 					<p>Got Question? Call us 9 AM - 10 PM</p>

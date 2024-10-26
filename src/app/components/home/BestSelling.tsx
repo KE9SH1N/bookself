@@ -13,7 +13,7 @@ const BestSelling = () => {
 	return (
 		<div>
 			<div>
-				<SectionHead title="BestSelling Books" />
+				<SectionHead title="BestSelling Goods" />
 			</div>
 			<div className="swiper-container mt-8">
 				<Swiper

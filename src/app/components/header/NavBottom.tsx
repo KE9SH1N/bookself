@@ -74,7 +74,7 @@ const NavBottom = () => {
 							<div className="flex flex-row gap-x-3">
 								<MdOutlineEmail className="text-2xl" />
 								<span className="flex items-center font-medium">
-									contact@bookself.com
+									contact@goodsself.com
 								</span>
 							</div>
 						</li>

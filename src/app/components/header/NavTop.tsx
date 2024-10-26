@@ -22,7 +22,7 @@ const NavTop = () => {
 						/> */}
 						<MdAutoStories className="text-5xl text-green-600" />
 						<span className="text-3xl font-bold uppercase mt-2 text-green-600">
-							bookself
+							goodsself
 						</span>
 					</div>
 				</Link>
@@ -34,7 +34,7 @@ const NavTop = () => {
 							// value={query}
 							// onChange={(e) => setQuery(e.target.value)}
 							className="appearance-none w-full p-3 pl-16 text-sm text-gray-900 border border-gray-300 rounded-md bg-gray-50 dark:placeholder-gray-400 dark:text-black focus:outline-none placeholder:capitalize"
-							placeholder="search-placeholder"
+							placeholder="Search what you want"
 						/>
 						<button
 							// onClick={handleSubmit}
@@ -63,7 +63,7 @@ const NavTop = () => {
 						>
 							<FiShoppingCart className="text-2xl " />
 							{/* <span>({totalQuantity})</span> */}
-							<span className=" absolute -top-3 left-4 w-6 h-6 rounded-full border border-yellow-900 text-[10px] font-bold ct-flex-center bg-[#ffedd5]">
+							<span className=" absolute -top-3 left-4 w-6 h-6 rounded-full border border-yellow-900 text-[10px] font-bold ct-flex-center bg-gray-100">
 								21
 							</span>
 						</button>

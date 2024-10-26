@@ -3,7 +3,9 @@ import NewsLetter from "./components/header/NewsLetter";
 import Banner from "./components/hero/Banner";
 import Slider from "./components/hero/Slider";
 import BestSelling from "./components/home/BestSelling";
+import BannerCardList from "./components/home/campaigns/BannerCardList";
 import ForYou from "./components/home/ForYou";
+import HotDeal from "./components/home/HotDeal";
 import NewCollections from "./components/home/NewCollections";
 import OurServices from "./components/home/OurServices";
 import CustomLayout from "./layout/CustomLayout";
@@ -25,14 +27,20 @@ export default function Home() {
 					<div className="w-full ct-container ">
 						<OurServices />
 					</div>
-					<div className="ct-container">
+					<div className="w-full ct-container">
+						<HotDeal />
+					</div>
+					<div className="w-full ct-container">
 						<BestSelling />
 					</div>
-					<div className="ct-container">
+					<div className="w-full ct-container">
 						<ForYou />
 					</div>
+					<div className="w-full ct-container">
+						<BannerCardList />
+					</div>
 
-					<div className="ct-container">
+					<div className="w-full ct-container">
 						<NewCollections />
 					</div>
 
