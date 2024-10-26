@@ -5,7 +5,7 @@ import NavTopMobile from "./NavTopMobile";
 
 const Navbar = () => {
 	return (
-		<div className="sticky top-0 z-30 lg:shadow-sm">
+		<div className="sticky top-0 z-30 lg:shadow-sm bg-white">
 			<NavTop />
 			<NavTopMobile />
 			<NavBottom />
