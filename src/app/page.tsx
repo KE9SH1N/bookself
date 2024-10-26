@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer";
 import NewsLetter from "./components/header/NewsLetter";
 import Banner from "./components/hero/Banner";
 import Slider from "./components/hero/Slider";
@@ -37,6 +38,7 @@ export default function Home() {
 
 					<div className="w-full">
 						<NewsLetter />
+						<Footer />
 					</div>
 				</div>
 			</CustomLayout>
