@@ -1,3 +1,4 @@
+import NewsLetter from "./components/header/NewsLetter";
 import Banner from "./components/hero/Banner";
 import Slider from "./components/hero/Slider";
 import BestSelling from "./components/home/BestSelling";
@@ -20,6 +21,9 @@ export default function Home() {
 							<Banner />
 						</div>
 					</div>
+					<div className="w-full ct-container ">
+						<OurServices />
+					</div>
 					<div className="ct-container">
 						<BestSelling />
 					</div>
@@ -30,8 +34,9 @@ export default function Home() {
 					<div className="ct-container">
 						<NewCollections />
 					</div>
-					<div className="w-full ct-container ">
-						<OurServices />
+
+					<div className="w-full">
+						<NewsLetter />
 					</div>
 				</div>
 			</CustomLayout>
