@@ -2,19 +2,21 @@ import Footer from "./components/footer/Footer";
 import NewsLetter from "./components/header/NewsLetter";
 import Banner from "./components/hero/Banner";
 import Slider from "./components/hero/Slider";
-import BestSelling from "./components/home/BestSelling";
 import BannerCardList from "./components/home/campaigns/BannerCardList";
-import ForYou from "./components/home/ForYou";
+import BannerFullSize from "./components/home/campaigns/BannerFullSize";
 import HotDeal from "./components/home/HotDeal";
-import NewCollections from "./components/home/NewCollections";
+import MostPopularBrands from "./components/home/MostPopularBrands";
 import OurServices from "./components/home/OurServices";
+import RecommendedForYou from "./components/home/recommend/RecommendedForYou";
+import TrendingNow from "./components/home/TrendingNow";
+import RemainingTime from "./components/utils/RemainingTime";
 import CustomLayout from "./layout/CustomLayout";
 
 export default function Home() {
 	return (
 		<main>
 			<CustomLayout>
-				<div className="ct-flex-center flex-col gap-y-20">
+				<div className="ct-flex-center flex-col gap-y-10">
 					<div className="ct-container lg:ct-grid-cols-3 my-2 lg:mt-0">
 						<div className="w-full lg:w-[98%] lg:col-span-2 cursor-pointer">
 							<Slider />
@@ -31,17 +33,19 @@ export default function Home() {
 						<HotDeal />
 					</div>
 					<div className="w-full ct-container">
-						<BestSelling />
-					</div>
-					<div className="w-full ct-container">
-						<ForYou />
+						<TrendingNow />
 					</div>
 					<div className="w-full ct-container">
 						<BannerCardList />
 					</div>
-
 					<div className="w-full ct-container">
-						<NewCollections />
+						<RecommendedForYou />
+					</div>
+					<div className="w-full">
+						<BannerFullSize />
+					</div>
+					<div className="w-full ct-container">
+						<MostPopularBrands />
 					</div>
 
 					<div className="w-full">
