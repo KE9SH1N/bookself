@@ -9,7 +9,7 @@ const NavTopMobile = () => {
 	const [searchbtniconState, setSearchbtniconState] = useState<boolean>(false);
 	let toggleSearchicon: string | null = searchbtniconState ? "active" : null;
 	return (
-		<nav>
+		<nav className="mb-2">
 			<div className="ct-flex-between bg-white p-4 lg:hidden relative z-10 shadow-md">
 				<div className="relative">
 					<button

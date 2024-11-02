@@ -54,7 +54,7 @@ const NavBottom = () => {
 						</li>
 						<li>
 							<Link
-								href={`/contact`}
+								href={`/contact-us`}
 								className={`link ${
 									pathname === `/contact`
 										? "border-gbPrimaryColor"
