@@ -1,5 +1,3 @@
-import Footer from "./components/footer/Footer";
-import NewsLetter from "./components/header/NewsLetter";
 import Banner from "./components/hero/Banner";
 import Slider from "./components/hero/Slider";
 import BannerCardList from "./components/home/campaigns/BannerCardList";
