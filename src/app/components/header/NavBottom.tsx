@@ -15,7 +15,7 @@ const NavBottom = () => {
 					<ul className="ct-flex-start capitalize font-medium gap-4 py-3">
 						<li>
 							<Link
-								href={""}
+								href={`/`}
 								className={`link ${
 									pathname === `/`
 										? "border-gbPrimaryColor"
@@ -41,7 +41,7 @@ const NavBottom = () => {
 						</li>
 						<li>
 							<Link
-								href={`/about`}
+								href={`/about-us`}
 								className={`link ${
 									pathname === `/about`
 										? "border-gbPrimaryColor"

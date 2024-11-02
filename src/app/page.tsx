@@ -47,11 +47,6 @@ export default function Home() {
 					<div className="w-full ct-container">
 						<MostPopularBrands />
 					</div>
-
-					<div className="w-full">
-						<NewsLetter />
-						<Footer />
-					</div>
 				</div>
 			</CustomLayout>
 		</main>
