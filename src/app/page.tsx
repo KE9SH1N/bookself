@@ -44,6 +44,7 @@ export default function Home() {
 					<div className="w-full">
 						<BannerFullSize />
 					</div>
+
 					<div className="w-full ct-container">
 						<MostPopularBrands />
 					</div>

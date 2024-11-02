@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { IoCart, IoCartOutline } from "react-icons/io5";
 
 const ProductCard = () => {
 	return (
@@ -33,9 +34,14 @@ const ProductCard = () => {
 					<div className="text-gray-900 font-bold text-xl mb-3">৳19.99</div>
 
 					{/* Add to Cart Button */}
-					<button className="w-full text-sm font-light py-2 px-6 rounded-sm bg-green-600 text-white capitalize">
-						Add to cart
-					</button>
+					<div className="w-full relative inline-block group">
+						<button className="w-full text-sm font-light py-3 px-6 rounded-sm bg-green-600 text-white capitalize">
+							Add to cart
+						</button>
+						<div className="absolute top-1/2 -left-6 -translate-y-1/2 transform opacity-0 group-hover:translate-x-24 group-hover:opacity-100 smooth-animation-high">
+							<IoCartOutline className="text-2xl text-white" />
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
